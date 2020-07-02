@@ -1,0 +1,56 @@
+h1 {
+  background-color: gold;
+  text-align: center;
+}
+h2 {
+  background-color: gold;
+  font-size: large;
+}
+img {
+  position: absolute;
+  height: 100px;
+  align-content: center;
+}
+p {
+  font-family: cursive;
+}
+p::first-letter {
+  font-size: 30px;
+}
+button {
+  height: 25px;
+  width: 100vw;
+  font-size: large;
+  font: bold;
+}
+.red_link {
+  color: red;
+  display: flex;
+}
+#Visitor_info {
+  color: green;
+}
+#Introduction {
+  background-color: darkturquoise;
+}
+#red_btn {
+  color: red;
+  font-style: italic;
+}
+.btn {
+  border-color: green;
+  border-style: solid;
+  border-width: 2px;
+}
+#Army_logo {
+  position: sticky;
+  left: 1000px;
+  top: 500px;
+}
+#Wei_photo {
+  position: relative;
+
+  border-radius: 50px;
+  height: 700px;
+  width: 900px;
+}
