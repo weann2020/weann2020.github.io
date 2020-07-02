@@ -1,3 +1,7 @@
+body {
+  background-image: url("background.jpg");
+}
+
 h1 {
   background-color: gold;
   text-align: center;
@@ -23,15 +27,19 @@ button {
   font-size: large;
   font: bold;
 }
-.red_link {
-  color: red;
+.nav_bar {
+  font-size: x-large;
+  display: flex;
+  margin: 50px;
+  flex-direction: row;
+}
+#flex-container {
   display: flex;
 }
 #Visitor_info {
   color: green;
 }
 #Introduction {
-  background-color: darkturquoise;
 }
 #red_btn {
   color: red;
@@ -43,14 +51,14 @@ button {
   border-width: 2px;
 }
 #Army_logo {
-  position: sticky;
-  left: 1000px;
-  top: 500px;
+  position: relative;
+  left: 700px;
+  top: 50px;
 }
 #Wei_photo {
   position: relative;
-
+  left: 500px;
   border-radius: 50px;
-  height: 700px;
-  width: 900px;
+  height: 370px;
+  width: 500px;
 }
