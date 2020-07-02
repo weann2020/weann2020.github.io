@@ -1,5 +1,40 @@
+/* #background-pic {
+  position: relative;
+  height:
+  width:100% vm;
+} */
 body {
-  background-image: url("background.jpg");
+  background-image: url(background.jpg);
+}
+.nav {
+  width: 1400px;
+  height: 50px;
+  background-color: #e8e7e3;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: row;
+}
+.nav li {
+  float: left;
+  line-height: 50px;
+}
+.nav a {
+  font-weight: 1300;
+  text-decoration: none;
+  columns: #777777;
+  padding: 50px;
+}
+.nav a:hover {
+  background-color: #3f3f3f;
+  color: #e8e7e3;
+}
+.inner-flex-bars {
+  /* width: 200px;
+  height: 150px; */
+  font-size: x-large;
+  /* display: flex; */
+  margin: 50px;
+  /* flex-direction: row; */
 }
 
 h1 {
@@ -27,15 +62,7 @@ button {
   font-size: large;
   font: bold;
 }
-.nav_bar {
-  font-size: x-large;
-  display: flex;
-  margin: 50px;
-  flex-direction: row;
-}
-#flex-container {
-  display: flex;
-}
+
 #Visitor_info {
   color: green;
 }
