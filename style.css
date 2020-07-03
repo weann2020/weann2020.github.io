@@ -1,13 +1,15 @@
 body {
   /* background-image: url(background.jpg); */
-  background-color: darkorange;
+  /* background-color: darkorange; */
 }
 .nav {
   width: 100vm;
   height: 50px;
   background-color: black;
-  display: flex;
-  flex-direction: row;
+  /* position: fixed; */
+  margin: 0 auto;
+  /* display: flex;
+  flex-direction: row; */
 }
 .nav li {
   float: left;
@@ -17,11 +19,11 @@ body {
   color: white;
   text-decoration: none;
   columns: #777777;
-  padding: 50px;
+  padding: 100px;
 }
 .nav a:hover {
-  background-color: #3f3f3f;
-  color: #e8e7e3;
+  background-color: gold;
+  color: black;
 }
 .inner-nav-bars {
   font-size: x-large;
@@ -40,11 +42,11 @@ body {
   height: 100 vh;
 }
 
-.Introduction {
+.Home {
   width: 100%;
   height: 100vh;
 }
-.About_me {
+.About {
   width: 100%;
   height: 100vh;
 }
